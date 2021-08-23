@@ -1,0 +1,21 @@
+PODS:
+  - MapKitCluster (0.1.1):
+    - SwiftQuadTree (= 0.1.0)
+  - SwiftQuadTree (0.1.0)
+
+DEPENDENCIES:
+  - MapKitCluster
+  - SwiftQuadTree
+
+SPEC REPOS:
+  trunk:
+    - MapKitCluster
+    - SwiftQuadTree
+
+SPEC CHECKSUMS:
+  MapKitCluster: 765dbfbcd373465a89ff4c309238859fb34a7190
+  SwiftQuadTree: de43e8106d6d8df2fd2ef543a3ba1c1c8d5ac469
+
+PODFILE CHECKSUM: 310f1f3918e19ce5184227a22279d45c855769e6
+
+COCOAPODS: 1.10.1
