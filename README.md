@@ -1,17 +1,4 @@
-TBAnnotationClustering
+AnnotationClustering
 ======================
 
-Example project from [blog post](http://robots.thoughtbot.com/how-to-handle-large-amounts-of-data-on-maps/).
-
-Quad Tree
----------
-If you want to grab the quad tree you can get it from my [GitHub](https://github.com/theocalmes/TBQuadTree)
-
-or just install using cocoapods
-
-```pod 'TBQuadTree', '~> 0.0'```
-
-Swift Version
---------------
-Added a Swift version of the code as an attempt at playing with Swift and figuring out Objective-C code.
-Note: this is not an exemplary Swift code, I'm still trying to figure out the best way past all this explict casting hell and might missed some memory management problems.
+The original credit goes to Theodore Calmes who explored annotation clustering in his [blog post](https://thoughtbot.com/blog/how-to-handle-large-amounts-of-data-on-maps). Inspired by his work I created two cocoapods, [SwiftQuadTree](https://github.com/anconaesselmann/SwiftQuadTree) and [ClusteredAnnotations](https://github.com/anconaesselmann/ClusteredAnnotations). This project is [Theodore Calmes's original project](https://github.com/thoughtbot/TBAnnotationClustering) translated to swift, which then uses my two cocoapods (inspired by his work).
